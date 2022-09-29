@@ -13,6 +13,10 @@
 	background: url("../../images/chapter_group.png");
 	width: 100%;
 	height: 95vh;
+	-webkit-background-size: 100% 100%;
+	-webkit-background-attachment: fixed;
+	-webkit-background-position: center, top;
+	-webkit-background-repeat: no-repeat;
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-position: center, top;
@@ -28,6 +32,8 @@
 
 @media screen and (max-width: 780px) {
 	#banner {
+		-webkit-background-size: 100% 62%;
+		-webkit-background-position: top, top;
 		background-size: 100% 62%;
 		background-position: top, top;
 		height: 65vh;
