@@ -35,7 +35,7 @@
 @media screen and (max-width: 780px) {
 	#banner {
 		background-attachment: scroll;
-		background-size: 100% 100%;
+		background-size: cover;
 		/* background-position: top, top; */
 		height: 65vh;
 	}
