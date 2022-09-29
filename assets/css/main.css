@@ -32,10 +32,9 @@
 
 @media screen and (max-width: 780px) {
 	#banner {
-		-webkit-background-size: 100% 62%;
-		-webkit-background-position: top, top;
-		background-size: 100% 62%;
-		background-position: top, top;
+		background-attachment: scroll;
+		background-size: 100% 100%;
+		/* background-position: top, top; */
 		height: 65vh;
 	}
 }
