@@ -35,11 +35,10 @@
 
 @media screen and (max-width: 780px) {
 	#banner {
-		/* background-attachment: scroll; */
 		background-size: 100% 100%;
 		background-repeat: no-repeat;
-		/* background-position: top, top; */
-		height: 65vh;
+		background-position:bottom, center;
+		height: 60vh;
 	}
 }
 
@@ -3554,7 +3553,7 @@ input, select, textarea {
 				/* background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 				/* background-size: auto, cover; */
 				/* background-position: center, center; */
-				margin-bottom: -6.5em;
+				/* margin-bottom: -6.5em; */
 			}
 
 		}
@@ -3563,7 +3562,7 @@ input, select, textarea {
 
 			#banner {
 				padding: 12em 3em 12.375em 3em ;
-				margin-bottom: -4.75em;
+				/* margin-bottom: -4.75em; */
 			}
 
 				#banner .inner {
@@ -3576,7 +3575,7 @@ input, select, textarea {
 
 			#banner {
 				/* padding: 5em 2em 4.25em 2em; */
-				margin-bottom: -2.5em;
+				/* margin-bottom: -2.5em; */
 			}
 
 				#banner .logo {
